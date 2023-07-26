@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #272b33;
+}
+
+h1{
+    font-family: 'Montserrat';
+    color: #272b33;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #fefefe;
+    padding-bottom: 100px;
+}
+
+header{
+    background-color: #fefefe;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.span{
+    width: 70px;
+}
+
+
+.link{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #ffffff;
+    margin-right: 50px;
+    font-size: 20px;
+    background-color: #272b33;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.link:hover{
+    background-color: #ff9800;
+    transition: 0.5s;
+}
+
+.logo{
+    width: 150px;
+}
+
+.div-lista{
+    padding: 0 80px 0 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#lista{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, auto));
+    align-items: center;
+    gap: 2rem;
+    padding-top: 50px;
+}
+
+.item{
+    width: 42vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color:  #3c3e44;
+}
+
+
+.h2{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #ff9800;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.data{
+    font-family: 'Montserrat';
+    color: #fefefe;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.ep{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.paginacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+}
+
+#diminuir{
+    border: none;
+    outline: none;
+    background-color: #272b33;
+    color: #ff9800;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#diminuir:hover{
+    color: #55cc44;
+}
+
+#numero{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    padding: 0 30px;
+    font-weight: 800;
+}
+
+#aumentar{
+    border: none;
+    outline: none;
+    background-color: #272b33;
+    color: #ff9800;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#aumentar:hover{
+    color: #55cc44;
+}
