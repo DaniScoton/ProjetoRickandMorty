@@ -70,8 +70,8 @@ header{
 }
 
 .item{
-    width: 42vw;
-    height: 35vh;
+    min-width: 20vw;
+    min-height: 35vh;
     display: flex;
     border-radius: 10px;
     background-color:  #3c3e44;
@@ -182,4 +182,3 @@ header{
 #aumentar:hover{
     color: #55cc44;
 }
-
